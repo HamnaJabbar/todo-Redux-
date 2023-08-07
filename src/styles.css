@@ -1,0 +1,90 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffc0cb; 
+  }
+  
+  .App {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .App-header1 {
+    position:fixed;
+    top:0;
+    left: 0;
+    right:0;
+    background-color:#FC8EAC;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    background-color: #ffffff;
+    height:30px;
+    width:300px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color:#FFA4B6;
+    color: #F765A3;
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  button:hover {
+    background-color: #F9D1D1;
+  }
+  
+
+  .todo-list {
+    margin: 120px auto 10px; /* Center the box horizontally and add margin on top */
+    margin-left: 740px; 
+    max-width: 100px; 
+    padding: 20px; 
+    background-color: #F765A3;
+    border-radius: 40px;
+}
+
+  
+  .todo-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px auto; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px; 
+  }
+  

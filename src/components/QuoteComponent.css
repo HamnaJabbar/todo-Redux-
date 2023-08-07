@@ -1,0 +1,19 @@
+.quote-container {
+    position: fixed; 
+    top: 0;
+    left: 20px; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .quote-box {
+    background-color: #FC8EAC;
+    padding: 15px; 
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    width: 300px; 
+    margin-left: 120px;
+  }
+  
